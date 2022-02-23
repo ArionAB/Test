@@ -1,0 +1,84 @@
+.progress {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 100vw;
+  background-color: rgb(221, 221, 221);
+
+  .first-bar {
+    width: 36rem;
+    height: 2px;
+    background-color: var(--checkout-address-selected-color);
+  }
+
+  .shipping,
+  .review {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .review {
+    margin: 0px 5px;
+  }
+
+  .first,
+  .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 10px;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: var(--checkout-address-selected-color);
+    border-radius: 50%;
+    color: white;
+  }
+
+  .pay {
+    position: absolute;
+    right: 500px;
+    top: 25px;
+  }
+
+  .second-bar {
+    width: 35rem;
+    height: 2px;
+    background-color: var(--checkout-address-selected-color);
+    transition: all 6s ease;
+  }
+  .empty-second-bar {
+    width: 35rem;
+    height: 2px;
+    background-color: rgb(155, 154, 154);
+  }
+
+  .last-bar {
+    width: 50rem;
+    height: 2px;
+    background-color: var(--checkout-address-selected-color);
+    transition: all 6s ease;
+  }
+
+  .empty-last-bar {
+    width: 50rem;
+    height: 2px;
+    background-color: rgb(155, 154, 154);
+  }
+
+  .empty-second-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 10px;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgb(155, 154, 154);
+    border-radius: 50%;
+    color: white;
+  }
+}
