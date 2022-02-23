@@ -48,8 +48,8 @@ class Checkout extends SourceCheckout {
             ) : (
               ""
             )}
+            <p className="pay">Review & Payments</p>
           </div>
-          <p className="pay">Review & Payments</p>
           {checkoutStep === "DETAILS_STEP" ? (
             <span className="last-bar"></span>
           ) : (
